@@ -209,6 +209,13 @@ p {
   #background {
     width:100%;
   }
+
+  .container {
+    position: relative;
+    float: none;
+    margin: auto;
+    max-width: 400px;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -236,5 +243,12 @@ p {
 
   #background {
     width:100%;
+  }
+
+  .container {
+    position: relative;
+    float: none;
+    margin: auto;
+    max-width: 400px;
   }
 }
